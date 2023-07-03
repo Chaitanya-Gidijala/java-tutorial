@@ -1,0 +1,215 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+	background-color: #283747;
+}
+.topicsbtn{
+	background-color: #a0d5da;
+	color: #073763;
+}
+.topicsbtn:hover{
+	background-color: #9FC5E8;
+	color: #000000;
+}
+.navbar {
+	background-color: #1C2833;
+	width: 100%;
+}
+
+.navbar .container-fluid #navbarNav ul li a:hover {
+	background-color: white;
+	border-radius: 5px;
+	color: #1E90FF;
+}
+
+.container {
+	background-color: #141F2B;
+	width: 70%;
+	font-size: 18px;
+	color: #abb2bf;
+}
+
+.container .main-content1 {
+	padding: 50px;
+}
+
+.container #contents ul li a {
+	text-decoration: none;
+}
+
+.container .main-content1 #contents {
+	background-color: #495057;
+}
+
+.container .main-content1 #contents ul li {
+	list-style-type: none;
+}
+
+.container .main-content1 #contents ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.container .main-content1 #contents ul li a:hover {
+	text-decoration: underline;
+	color: #1E90FF;
+}
+
+.sidelist ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.sidelist ul li a:hover{
+	color: #f7860f;
+}
+
+/*side-bar*/
+#offcanvasLeft{
+	width: 15em;	
+	text-decoration: none;
+	background-color: #2c4f56;	
+}
+
+
+.btn-close{
+	background-color: white;
+	
+}
+
+@media ( max-width : 700px) {
+	.container {
+		margin-left: 0px;
+		margin-top: 0px;
+		width: 100%;
+	}
+}
+
+@media ( max-width : 700px) {
+	.container .main-content1 {
+		padding: 0px;
+		margin-left: 0;
+	}
+}
+
+@media ( max-width : 600px) {
+	.container #heading1 {
+		font-size: 25px;
+	}
+}
+
+.main-content {
+	margin-left: 13px;
+}
+
+h2{
+	color: #ffffff;
+	padding-top: 20px;
+}
+
+h4 {
+	color: #D7DBDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h5{
+	color: #ffffff;
+		padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h6{
+	color: #ffffff;
+}
+
+mark{
+	border-radius: 5px;
+	background-color: #99a8a6;
+	padding: 5px;
+}
+
+pre {
+	overflow: auto;
+	font-size: 15px;
+	background-color: #1B2631;
+	padding: 20px 20px 20px 20px;
+	border-radius: 8px;
+	color: #e7f0f9;
+}
+
+.container .main-content1 .next-previous a{
+	border: 10px;
+	background-color: white;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.container .main-content1 .next-previous a {
+	color: green;
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+@media ( min-width : 800.98px) {
+	main {
+		padding-left: 240px;
+	}
+}
+
+.sidelist a {
+	padding: 5px 8px 8px 8px;
+	font-size: 18px;
+	color: #DAE4E5;
+	display: block;
+	transition: 0.3s;
+
+}
+
+
+#main-content {
+	transition: margin-left 0.5s;
+	padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+	.sidebar {
+		padding-top: 15px;
+	}
+	.sidebar a {
+		font-size: 18px;
+	}
+}
+
+.contact12{
+	background-color: #144f4e;
+}
+.social_media_links{
+	background-color: #ceebbd;
+}
+
+/* Scroll-bar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 2px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6a949d; 
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #CFE2F3; 
+}

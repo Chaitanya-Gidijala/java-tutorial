@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<!--
+	Created by Chaitanya Gidijala
+  -->
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+<link href="webjars/bootstrap/5.2.3/css/bootstrap.min.css"
+	rel="stylesheet">
+<script src="webjars/bootstrap/5.2.3/js/bootstrap.min.js"></script>
+<script>
+	function show() {
+		document.getElementById("mySidebar").style.width = "235px";
+		document.getElementById("content").style.marginLeft = "200px";
+	}
+
+	function hide() {
+		document.getElementById("mySidebar").style.width = "0";
+		document.getElementById("content").style.marginLeft = "0";
+	}
+</script>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body style="font-size: 17px;">
+	<!-- Left-aligned -->
+	<div class="media">
+		<div class="media-left" style="padding: 10px;">
+		</div>
+	</div>
+	

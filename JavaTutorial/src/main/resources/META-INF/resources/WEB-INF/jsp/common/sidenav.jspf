@@ -1,0 +1,33 @@
+<button class="btn topicsbtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft" aria-controls="offcanvasLeft"><i class="fas fa-bars"></i> Java Topics</button>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasLeftLabel">Java Topics</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body sidelist">
+    <ul style="display: inline;" class="list-unstyled">
+    	<li><a href="tutorial" >Java Introduction</a></li>
+        <li><a href="syntax" >Java Syntax</a></li>
+        <li><a href="variables">Java Variables</a></li>
+        <li><a href="comments">Java Comments</a></li>
+        <li><a href="datatypes">Java Data Types</a></li>
+        <li><a href="typecasting">Java Type Casting</a></li>
+        <li><a href="strings">Java Strings</a></li>
+        <li><a href="operators">Java Operators</a></li>
+        <li><a href="booleans">Java Booleans</a></li>
+        <li><a href="ifelse">Java If-Else</a></li>
+        <li><a href="forloop">Java For Loop</a></li>
+        <li><a href="break">Java Break/Continue</a></li>
+        <li><a href="whileloop">Java While Loop</a></li>
+        <li><a href="dowhile">Java Do-While Loop</a></li>
+        <li><a href="switch">Java Switch</a></li>
+        <li><a href="arrays">Java Arrays</a></li>
+    </ul>
+    <ul style="display: inline;" class="list-unstyled col-sm-12">
+        <li  ><a href="methods">Java Methods</a></li>
+        <li  ><a href="files">Java File-Handling</a></li>
+        <li  ><a href="oops">Java OOPS</a>
+    </ul>
+  </div>
+</div>
